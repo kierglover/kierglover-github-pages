@@ -1,8 +1,8 @@
 <template lang="html">
-     
+
      <div class="container" id="main-body">
-          <h2 class="subtitle">Hi there<i class="em em-wave"></i></h2>
-          <p>Currently based in Phnom Pehn Cambodia, I design and develop digtial experiences. I work as a contractor &amp digital consultant. Currently I'm working as a consulatant for <a href="http://www.eurocham-cambodia.org/" target="_blank">EuroChamb</a> but you can still <a>hire me</a>. In my free time you can find me launching different startups, reading &amp illustrating.</p>
+          <img src="./static/" alt="">
+          <h2 class="subtitle">I'm Kieran - an experienced designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. From startups to established companies, I have worked on a variety of projects worldwide.</h2>
      </div>
 
 </template>

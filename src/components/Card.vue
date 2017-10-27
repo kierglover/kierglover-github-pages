@@ -2,7 +2,7 @@
      <div class="tile is-parent">
           <article class="tile is-child box" id="development-work">
                <img v-bind:src="projectImage" class="project-image" alt="">
-               <div class="project-description" v-if="active">
+               <div class="project-description">
                     <p class="title">{{title}}</p>
                     <p class="subtitle">{{description}}</p>
                     <span class="tag is-danger">{{tag}}</span>
@@ -15,9 +15,6 @@
 export default {
      props: ['title', 'description', 'tag', 'projectImage'],
      data () {
-       return {
-            active: false
-       }
      }
 }
 </script>

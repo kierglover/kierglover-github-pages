@@ -1,14 +1,14 @@
 <template lang="html">
      <div class="work">
           <div class="container">
-               <h2 class="subtitle">Development Work<i class="em em-computer"></i></h2>
+               <h2 class="subtitle">Development Work</h2>
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" tag="Web Development" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet."></port-card>
                <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" tag="Web Development" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%."></port-card>
           </div>
           <div class="container">
-               <h2 class="subtitle">Personal Project<i class="em em-computer"></i></h2>
+               <h2 class="subtitle">Personal Project</h2>
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" tag="Web Development" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet."></port-card>
