@@ -5,7 +5,7 @@
                <div class="project-description">
                     <p class="title">{{title}}</p>
                     <p class="subtitle">{{description}}</p>
-                    <span class="tag is-danger">{{tag}}</span>
+                    <a class="button is-medium is-danger is-outlined" :href="siteLink" target="_blank">{{BtnText}}</a>
                </div>
           </article>
      </div>
@@ -13,8 +13,11 @@
 
 <script>
 export default {
-     props: ['title', 'description', 'tag', 'projectImage'],
+     props: ['title', 'description', 'cta-btn', 'projectImage', 'siteLink'],
      data () {
+          return {
+               BtnText: "Visit Site"
+          }
      }
 }
 </script>
@@ -36,15 +39,8 @@ export default {
      }
 
      .project-image {
-          border-radius: 10px;
           margin-bottom: 20px;
           transition: opacity .5s
-     }
-
-     .project-image:hover {
-          border-radius: 10px;
-          margin-bottom: 20px;
-          opacity: 0.8;
      }
 
      .box {

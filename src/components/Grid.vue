@@ -4,23 +4,19 @@
                <h2 class="subtitle">Development Work</h2>
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" tag="Web Development" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet."></port-card>
-               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" tag="Web Development" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%."></port-card>
+               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" siteLink="https://www.responsiblemanagement.org.uk" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet."></port-card>
+               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%."></port-card>
           </div>
           <div class="container">
                <h2 class="subtitle">Personal Project</h2>
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" tag="Web Development" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet."></port-card>
-               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" tag="Web Development" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%."></port-card>
+               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="Cambodia Weather" description="To help improve my development skills, in particular vuejs, I deceided to take on the challenge of creating a native weather app for Cambodia"></port-card>
+               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%."></port-card>
           </div>
           <div class="container">
-               <h2 class="subtitle">Design & Illustration<i class="em em-computer"></i></h2>
-          </div>
-          <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" tag="Web Development"></port-card>
-               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" tag="Web Development"></port-card>
-               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" tag="Web Development"></port-card>
+               <h2 class="subtitle">My road to we dev</h2>
+               <p>Instagram feed from API here.</p>
           </div>
      </div>
 
@@ -50,10 +46,9 @@ export default {
           @include emoji-padding;
      }
      .subtitle {
-          font-size: 1.25em;
-          margin-bottom: 25px;
-          font-weight: 500;
-          padding-right: 50px;
+          font-size: 23px;
+          line-height: 1.5em;
+          font-weight: 300;
      }
 
      .work {
