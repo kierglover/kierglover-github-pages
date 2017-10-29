@@ -16,7 +16,7 @@ export default {
      props: ['title', 'description', 'cta-btn', 'projectImage', 'siteLink'],
      data () {
           return {
-               BtnText: "Visit Site"
+               BtnText: "View Project"
           }
      }
 }

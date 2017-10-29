@@ -18,19 +18,19 @@
                <port-card  projectImage="./static/web-development-cambodia.jpeg" title="Cambodia Weather" description="To help improve my development skills, in particular vuejs, I deceided to take on the challenge of creating a native weather app for Cambodia"></port-card>
                <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%."></port-card>
           </div>
-          <playlist></playlist>
+                         <port-quotes></port-quotes>
      </div>
 
 </template>
 
 <script>
 import Card from './Card.vue'
-import Spotify from './Spotify.vue'
+import Quotes from './Quotes.vue'
 export default {
      name: 'Grid',
      components: {
           'port-card': Card,
-          'playlist': Spotify
+          'port-quotes': Quotes
      }
 }
 </script>
