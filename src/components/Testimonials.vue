@@ -15,7 +15,7 @@ export default {
      #client-review {
           margin-top: 15px;
           padding-left: 75px;
-          padding-right: 75px;
+          padding-right: 100px;
 
      }
      .subtitle {

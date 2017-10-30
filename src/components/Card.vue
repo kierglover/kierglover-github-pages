@@ -23,6 +23,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+     a:hover {
+          color: #fff !important;
+     }
      .tile {
           margin-right: 25px;
      }

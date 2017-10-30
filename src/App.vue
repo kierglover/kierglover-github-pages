@@ -49,4 +49,5 @@ export default {
      a {
           color: #ff3860;
      }
+          
 </style>
