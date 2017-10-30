@@ -1,8 +1,9 @@
 <template>
   <div id="app">
-       <port-hero></port-hero>
-       <port-subtitle></port-subtitle>
+       <port-hero id="hero"></port-hero>
+       <port-subtitle id="subtitle"></port-subtitle>
        <port-work></port-work>
+       <port-footer></port-footer>
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import Hero from './components/Hero.vue'
 import Subtitle from './components/Subtitle.vue'
 import Work from './components/Grid.vue'
+import Footer from './components/Footer.vue'
 export default {
   name: 'app',
   components: {
        'port-hero': Hero,
        'port-subtitle': Subtitle,
-       'port-work': Work
+       'port-work': Work,
+       'port-footer': Footer
  },
   data () {
     return {
@@ -26,14 +29,21 @@ export default {
 
 <style lang="sass" scoped>
 @mixin body-padding {
-     padding-top: 40px;
-     padding-bottom: 40px;
-     padding-left: 130px;
-     padding-right: 130px;
+     padding-left: 75px;
+     padding-right: 75px;
 }
-     #app {
+
+@mixin element-padding {
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+     #hero {
           @include body-padding;
-          background-color: #FCFCFC; 
+     }
+
+     #subtitle {
+          @include body-padding;
+          @include element-padding;
      }
 
      a {

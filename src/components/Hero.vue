@@ -10,17 +10,14 @@
                </a>
              </div>
              <div class="nav-right nav-menu">
-               <a class="nav-item is-active">
-                 Portfolio
+               <a class="nav-item" href="https://github.com/kierglover" target="_blank">
+                 <img src="https://png.icons8.com/GitHub" >
                </a>
-               <a class="nav-item">
-                 Work
+               <a class="nav-item" href="https://twitter.com/kierglover" target="_blank">
+                 <img src="https://png.icons8.com/twitter">
                </a>
-               <a class="nav-item">
-                 Blog
-               </a>
-               <a class="nav-item">
-                 Hire
+               <a class="nav-item" href="https://instagram.com/kiergloverdesign" target="_blank">
+                 <img src="https://png.icons8.com/Instagram">
                </a>
              </div>
            </div>

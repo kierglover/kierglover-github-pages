@@ -1,11 +1,11 @@
 <template lang="html">
      <div class="tile is-parent">
           <article class="tile is-child box" id="development-work">
-               <img v-bind:src="projectImage" class="project-image" alt="">
+               <img :src="projectImage" class="project-image" alt="freelance-web-developer-phnom-penh">
                <div class="project-description">
                     <p class="title">{{title}}</p>
                     <p class="subtitle">{{description}}</p>
-                    <a class="button is-medium is-danger is-outlined" :href="siteLink" target="_blank">{{BtnText}}</a>
+                    <a class="button is-medium is-danger is-outlined" :href="siteLink" target="_blank">{{btnText}}</a>
                </div>
           </article>
      </div>
@@ -13,10 +13,10 @@
 
 <script>
 export default {
-     props: ['title', 'description', 'cta-btn', 'projectImage', 'siteLink'],
+     props: ['title', 'description', 'cta-btn', 'projectImage', 'siteLink', 'btnText'],
      data () {
           return {
-               BtnText: "View Project"
+               // BtnText: "View Project"
           }
      }
 }

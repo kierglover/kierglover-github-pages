@@ -18,14 +18,6 @@ export default {
      margin-top: 25px;
      margin-bottom: 25px;
 }
-@mixin emoji-padding {
-     padding: 5px;
-     margin-left: 10px;
-     margin-bottom: 20px;
-}
-     .em {
-          @include emoji-padding;
-     }
 
      a {
           font-weight: 600;

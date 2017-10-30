@@ -1,5 +1,5 @@
 <template lang="html">
-     <div class="container">
+     <div class="container has-text-centered">
           <div id="row" v-bind="quote in quotes">
                <h2 class="subtitle">Quote of the Day</h2>
                <p id="quote">{{quotes.quote}}</p>
@@ -31,8 +31,9 @@ import axios from 'axios'
           line-height: 1.5em;
           font-weight: 300;
      }
-
      #quote {
-          padding-right: 85px;
+          margin-top: 15px;
+          padding-left: 75px;
+          padding-right: 75px;
      }
 </style>
