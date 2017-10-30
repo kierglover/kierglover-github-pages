@@ -25,8 +25,8 @@
                <h2 class="subtitle">Personal Project</h2>
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="Cambodia Weather" siteLink="https://www.beaumontparkmusic.com" description="To help improve my development skills, in particular vuejs, I deceided to take on the challenge of creating a native weather app for Cambodia" btnText="Work in Progress"></port-card>
-               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 page views per month with a bounce rate of only 1%." btnText="Work in Progress"></port-card>
+               <port-card  projectImage="./static/freelance-web-developers-phnom-penh.jpeg" title="Cambodia Weather" description="To help improve my development skills, in particular vuejs, I deceided to take on the challenge of creating a native weather app for Cambodia" btnText="Coming Soon"></port-card>
+               <port-card   projectImage="./static/kieran-glover-web-developer-phnom-penh.jpeg" title="Simple Finance Blog" description="Simple Finance Blog is a personal project aimed at helping me expand both my development knowledge and finance knowledge. I want to teach young professionals how to take advantage of modern platforms to aidtheir financial wellbeing." btnText="Coming Soon"></port-card>
           </div>
           <port-quotes></port-quotes>
      </div>
