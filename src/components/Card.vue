@@ -29,8 +29,9 @@ $purple: #b72a67;
      }
      .title {
           margin-bottom: 40px;
-          font-size: 1.25em;
-          font-weight: 500;
+          font-size: 1.4em;
+          font-weight: bold;
+          color: $purple;
      }
      .subtitle {
           font-size: 1rem;

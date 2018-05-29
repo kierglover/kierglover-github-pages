@@ -5,7 +5,8 @@
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" siteLink="https://www.responsiblemanagement.org.uk" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet." btnText="View Project"></port-card>
+               <port-card  projectImage="./static/Pancier-residence-Web-Development.jpg" title="Pancier Residence" siteLink="http://www.pancier-residence.com/" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet." btnText="View Project"></port-card>
+               <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 views per month with a bounce rate of only 1%." btnText="View Project"></port-card>
                <port-card   projectImage="./static/web-development-dog-walking-cambodia.jpeg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 views per month with a bounce rate of only 1%." btnText="View Project"></port-card>
           </div>
           <div class="tile is-ancestor projects">
@@ -15,7 +16,8 @@
 
           <!-- Testominials Section -->
           <div class="container">
-               <h2 class="subtitle has-text-centered">Testimonials</h2>
+               <h2 class="subtitle">Testimonials</h2>
+               <hr class="hr-short">
           </div>
           <port-testimonials clientImage="" clientName="Molika Suy - SMango House Resort" clientReview="Kieran, Chnai Studio, provided great service and was very thoughtful, reliable, and organized when considering my needs for our website. They helped produce my vision and imitate very well as it is showcased through the website's innovative design and functionality. I'm very pleased with the outcome and would recommend their services to anyone looking to have a spectacular website or receive any graphic design inputs for their business and other needs."></port-testimonials>
           <port-testimonials clientImage="" clientName="Dr Karen Blakely - Centre for Responsible Management" clientReview="Kieran was an extremely hard worker who quickly engaged with the project showing an ability to listen as well as offering plenty of ideas of his own. He had an instinctive ability to understand what I was trying to convey through the website and was excellent in amending it in response to feedback I provided. Not only this but Kieran was a pleasure to work with; he is friendly with a good sense of humour, hard-working and extremely keen to do a good job. He worked extremely well as part of a team, helping out other members and sharing his knowledge and expertise. I really enjoyed my year of working with Kieran and will miss his guidance and enthusiasm as he goes on to new challenges. I would thoroughly recommend him to future employers and clients."></port-testimonials>
