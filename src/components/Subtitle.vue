@@ -1,9 +1,12 @@
 <template lang="html">
 
-     <div class="container" id="main-body">
-          <img src="./static/web-developer-phnom-pehn-kieran-glover.jpeg" alt="web-developer-phnom-peh-kieran-glover">
-          <h2 class="subtitle">I'm Kieran - an experienced designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. From startups to established companies, I have worked on a variety of projects worldwide.</h2>
-          <a class="button is-danger is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Get in Touch</a>
+     <div class="columns" id="main-body">
+          <div class="column">
+               <h2 class="subtitle">I'm Kieran - an experienced designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. From startups to established companies, I have worked on a variety of projects worldwide.</h2>
+               <a class="button is-danger is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Get in Touch</a>
+          </div>
+          <div class="column">
+          </div>
      </div>
 
 </template>
@@ -19,21 +22,27 @@ export default {
      margin-bottom: 25px;
 }
 
+@mixin full-height {
+     height: 100vh;
+}
+
      a {
           font-weight: 600;
           color: #fff !important;
-     }
-
-     .subtitle {
-          margin-top: 15px;
-          font-size: 23px;
-          line-height: 1.5em;
-          font-weight: 300;
      }
 
      #main-body {
           @include element-margin;
           padding: 30px;
           width: 100%;
+          }
+
+     .subtitle {
+          // @include full-height;
+          margin-top: 100px;
+          font-size: 23px;
+          line-height: 1.5em;
+          font-weight: 300;
      }
+
 </style>

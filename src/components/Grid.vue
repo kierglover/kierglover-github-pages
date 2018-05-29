@@ -1,7 +1,8 @@
 <template lang="html">
      <div class="work">
           <div class="container">
-               <h2 class="subtitle">Development Work</h2>
+               <h2 class="subtitle">Recent Projects</h2>
+               <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./static/web-development-cambodia.jpeg" title="CRM" siteLink="https://www.responsiblemanagement.org.uk" description="The Centre for Resposonsible Management was developed for the University of Winchester to empower responsible managers & leaders to make a positive impact on the planet." btnText="View Project"></port-card>
@@ -23,6 +24,7 @@
           <!-- Personal Project -->
           <div class="container">
                <h2 class="subtitle">Personal Project</h2>
+               <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./static/freelance-web-developers-phnom-penh.jpeg" title="Cambodia Weather" description="To help improve my development skills, in particular vuejs, I deceided to take on the challenge of creating a native weather app for Cambodia" btnText="Coming Soon"></port-card>
@@ -48,23 +50,33 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+
+$purple: #b72a67;
+$peach: #fde8cb;
+
 @mixin element-margin {
      margin-top: 25px;
      margin-bottom: 25px;
 }
 
      .subtitle {
-          font-size: 23px;
-          line-height: 1.5em;
-          font-weight: 300;
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 15px;
      }
 
      .work {
-          padding: 30px;
+          padding: 50px;
      }
 
      .projects {
           @include element-margin;
+     }
+
+     .hr-short {
+          width: 7%;
+          height: 5px;
+          background-color: $peach;
      }
 
 </style>

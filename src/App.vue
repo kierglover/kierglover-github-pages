@@ -32,7 +32,7 @@ export default {
      padding-left: 75px;
      padding-right: 75px;
 }
-
+     
 @mixin element-padding {
      padding-top: 30px;
      padding-bottom: 30px;
@@ -49,5 +49,5 @@ export default {
      a {
           color: #ff3860;
      }
-          
+
 </style>

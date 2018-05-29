@@ -5,7 +5,7 @@
                <div class="project-description">
                     <p class="title">{{title}}</p>
                     <p class="subtitle">{{description}}</p>
-                    <a class="button is-medium is-danger is-outlined" :href="siteLink" target="_blank">{{btnText}}</a>
+                    <a class="button is-medium is-outlined" :href="siteLink" target="_blank">{{btnText}}</a>
                </div>
           </article>
      </div>
@@ -23,9 +23,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-     a:hover {
-          color: #fff !important;
-     }
+$purple: #b72a67;
      .tile {
           margin-right: 25px;
      }
@@ -46,9 +44,28 @@ export default {
           transition: opacity .5s
      }
 
+     .button.is-medium {
+          font-size: 1.25rem;
+          color: $purple!important;
+          border-color: $purple;
+          transition:all 0.25s ease;
+     }
+
+     .button.is-medium:hover {
+          color: white!important;
+          background-color: $purple!important;
+          }
+
      .box {
           border: none;
           background: none;
           box-shadow: none;
      }
+
+     //ANIMATIONS
+
+     @keyframes bgFade {
+    from {background-color: none;}
+    to {background-color: $purple;}
+}
 </style>
