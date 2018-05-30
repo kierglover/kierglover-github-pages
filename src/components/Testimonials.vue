@@ -30,6 +30,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+     $purple: #b72a67;
+     $peach: #fde8cb;
+
      #client-review {
           margin-top: 15px;
           padding-left: 75px;
@@ -45,4 +48,5 @@ export default {
      .carousel {
           margin: 10px 0px 10px 0px;
      }
+          
 </style>

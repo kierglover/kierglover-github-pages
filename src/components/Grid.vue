@@ -1,7 +1,9 @@
 <template lang="html">
      <div class="work">
+
+          <!-- RECENT PROJECTS SECTION -->
           <div class="container">
-               <h2 class="subtitle">Recent Projects</h2>
+               <h2 class="subtitle">Client Projects</h2>
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
@@ -9,15 +11,7 @@
                <port-card   projectImage="./static/happy-schnozzles-winchester-web-development.jpg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 views per month with a bounce rate of only 1%." btnText="View Project"></port-card>
                <port-card   projectImage="./static/Smango-House-Website-Development.jpg" title="SMango House Resort" siteLink="http://smangohouse-cambodia.com/" description="SMango House Cambodia is a tranquil and relaxing eco-friendly resort just on the outskirts of Phnom Penh Cambodia. The resort is ready to welcome visitors with pool, restaurant and more." btnText="View Project"></port-card>
           </div>
-          <div class="container">
-               <h2 class="subtitle">Latest Work</h2>
-               <hr class="hr-short">
-          </div>
-          <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/Pancier-residence-Web-Development.jpg" title="Pancier Residence" siteLink="http://www.pancier-residence.com/" description="Pancier Residence is one of Phnom Penh's newest premier residential and commercial developments. With exclusive link house and shop house options providing a modern lifestyle." btnText="View Project"></port-card>
-               <port-card   projectImage="./static/happy-schnozzles-winchester-web-development.jpg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 views per month with a bounce rate of only 1%." btnText="View Project"></port-card>
-               <port-card   projectImage="./static/Smango-House-Website-Development.jpg" title="SMango House Resort" siteLink="http://smangohouse-cambodia.com/" description="SMango House Cambodia is a tranquil and relaxing eco-friendly resort just on the outskirts of Phnom Penh Cambodia. The resort is ready to welcome visitors with pool, restaurant and more." btnText="View Project"></port-card>
-          </div>
+
           <!-- Testominials Section -->
           <div class="container">
                <h2 class="subtitle">Testimonials</h2>
@@ -32,10 +26,10 @@
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/freelance-web-developers-phnom-penh.jpeg" title="Cambodia Weather" description="To help improve my development skills, in particular vuejs, I deceided to take on the challenge of creating a native weather app for Cambodia" btnText="Coming Soon"></port-card>
-               <port-card   projectImage="./static/kieran-glover-web-developer-phnom-penh.jpeg" title="Simple Finance Blog" description="Simple Finance Blog is a personal project aimed at helping me expand both my development knowledge and finance knowledge. I want to teach young professionals how to take advantage of modern platforms to aidtheir financial wellbeing." btnText="Coming Soon"></port-card>
+               <port-card  projectImage="./static/kieran-glover-random-quotes.png" title="Random Quote Generator" description="To practice my Vue.js skills and displaying data from a simple API, I created a simple quote generator website." siteLink="quoteGen.html" btnText="View Project"></port-card>
+               <port-card  projectImage="./static/kieran-glover-trick-shot.png" title="Trick Shot" description="Trick Shot is an addictive Android game build with Corona SDK - a  Lua based mobile framework." siteLink="quoteGen.html" btnText="Play Demo"></port-card>
+               <port-card   projectImage="./static/kieran-glover-codepen.png" title="Code Explorations" description="I recently started using Codepen to practice and sketch out rough ideas. Take a look at my pens to see more" btnText="See Pens" siteLink="https://codepen.io/kiroid123/"></port-card>
           </div>
-          <port-quotes></port-quotes>
      </div>
 
 </template>

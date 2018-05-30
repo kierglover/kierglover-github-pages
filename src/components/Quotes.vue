@@ -1,5 +1,5 @@
 <template lang="html">
-     <div class="container has-text-centered">
+     <div class="container has-text-centered" id="randomQuote">
           <div id="row" v-bind="quote in quotes">
                <h2 class="subtitle">Quote of the Day</h2>
                <p id="quote">{{quotes.quote}}</p>
@@ -26,10 +26,18 @@ import axios from 'axios'
 </script>
 
 <style lang="sass" scoped>
+
+$purple: #b72a67;
+$peach: #fde8cb;
+
+     #randomQuote {
+          margin-top: 30px;
+     }
+
      .subtitle {
-          font-size: 23px;
-          line-height: 1.5em;
-          font-weight: 300;
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 15px;
      }
      #quote {
           margin-top: 15px;
