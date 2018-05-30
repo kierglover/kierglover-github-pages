@@ -38,6 +38,9 @@ export default {
 
 <style lang="sass" scoped>
 
+$purple: #b72a67;
+$peach: #fde8cb;
+
      a.nav-item {
           font-size: 14px;
           padding: 30px;

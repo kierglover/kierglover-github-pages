@@ -3,9 +3,10 @@
      <div class="columns" id="main-body">
           <div class="column">
                <h2 class="subtitle">I'm Kieran - an experienced designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. From startups to established companies, I have worked on a variety of projects worldwide.</h2>
-               <a class="button is-danger is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Get in Touch</a>
+               <a class="button is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Get in Touch</a>
           </div>
           <div class="column">
+
           </div>
      </div>
 
@@ -17,6 +18,10 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+
+     $purple: #b72a67;
+     $peach: #fde8cb;
+
 @mixin element-margin {
      margin-top: 25px;
      margin-bottom: 25px;
@@ -27,7 +32,7 @@ export default {
 }
 
      a {
-          font-weight: 600;
+          font-weight: 400;
           color: #fff !important;
      }
 
@@ -44,5 +49,17 @@ export default {
           line-height: 1.5em;
           font-weight: 300;
      }
+
+     .button {
+          font-size: 1.25rem;
+          color: $purple!important;
+          border-color: $purple;
+          transition:all 0.25s ease;
+          }
+
+          .button:hover {
+          color: white!important;
+          background-color: $purple!important;
+          }
 
 </style>

@@ -50,6 +50,7 @@ $purple: #b72a67;
           color: $purple!important;
           border-color: $purple;
           transition:all 0.25s ease;
+          font-weight: 400;
      }
 
      .button.is-medium:hover {
