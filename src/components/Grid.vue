@@ -1,6 +1,5 @@
 <template lang="html">
      <div class="work">
-
           <!-- RECENT PROJECTS SECTION -->
           <div class="container">
                <h2 class="subtitle">Client Projects</h2>
@@ -22,11 +21,11 @@
 
           <!-- Personal Project -->
           <div class="container">
-               <h2 class="subtitle">Personal Project</h2>
+               <h2 class="subtitle">Stuff I've Made 🚀</h2>
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/kieran-glover-random-quotes.jpg" title="Random Quote Generator" description="To practice my Vue.js skills and displaying data from a simple API, I created a simple quote generator website." siteLink="quoteGen.html" btnText="View Project"></port-card>
+               <port-card  projectImage="./static/kieran-glover-webflow.jpg" title="Webflow Build System 💨" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
                <port-card  projectImage="./static/kieran-glover-trick-shot.jpg" title="Trick Shot" description="Trick Shot is an addictive Android game build with Corona SDK - a  Lua based mobile framework." btnText="Demo Coming Soon"></port-card>
                <port-card   projectImage="./static/kieran-glover-codepen.jpg" title="Code Explorations" description="I recently started using Codepen to practice and sketch out rough ideas. Take a look at my pens to see more" btnText="See Pens" siteLink="https://codepen.io/kiroid123/"></port-card>
           </div>
