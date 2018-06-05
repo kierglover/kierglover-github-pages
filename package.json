@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js"
   },
   "dependencies": {
+    "npm": "^6.1.0",
     "vue": "^2.5.16",
     "vue-carousel": "^0.8.0",
     "vue-template-compiler": "^2.5.16"

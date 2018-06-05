@@ -2,8 +2,8 @@
 
      <div class="columns" id="main-body">
           <div class="column">
-               <h2 class="subtitle">I'm Kieran - an experienced designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. From startups to established companies, I have worked on a variety of projects worldwide.</h2>
-               <a class="button is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Get in Touch</a>
+               <h2 class="subtitle"> 👋 I'm Kieran - a designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. Currently at the beginning of my indie maker journey and available for freelance work.</h2>
+               <a class="button is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Let's chat 🚀 </a>
           </div>
           <div class="column">
 
