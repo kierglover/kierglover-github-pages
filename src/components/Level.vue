@@ -9,19 +9,19 @@
   </div>
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading">Shipped 🚀</p>
+      <p class="heading">🚀 Shipped</p>
       <p class="title">1</p>
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading">Followers</p>
-      <p class="title">456K</p>
+      <p class="heading"> ✅ To Do's Completed</p>
+      <p class="title">3</p>
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading">MRR</p>
+      <p class="heading">📈 MRR</p>
       <p class="title">0</p>
     </div>
   </div>
