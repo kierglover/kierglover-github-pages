@@ -2,6 +2,7 @@
   <div id="app">
        <port-hero id="hero"></port-hero>
        <port-subtitle id="subtitle"></port-subtitle>
+      <port-level></port-level>
        <port-work></port-work>
        <port-footer></port-footer>
   </div>
@@ -10,6 +11,7 @@
 <script>
 import Hero from './components/Hero.vue'
 import Subtitle from './components/Subtitle.vue'
+import Level from './components/Level.vue'
 import Work from './components/Grid.vue'
 import Footer from './components/Footer.vue'
 export default {
@@ -17,6 +19,7 @@ export default {
   components: {
        'port-hero': Hero,
        'port-subtitle': Subtitle,
+       'port-level': Level,
        'port-work': Work,
        'port-footer': Footer
  },
@@ -32,7 +35,7 @@ export default {
      padding-left: 75px;
      padding-right: 75px;
 }
-     
+
 @mixin element-padding {
      padding-top: 30px;
      padding-bottom: 30px;

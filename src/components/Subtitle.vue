@@ -2,11 +2,11 @@
 
      <div class="columns" id="main-body">
           <div class="column">
-               <h2 class="subtitle"> 👋 I'm Kieran - a designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. Currently at the beginning of my indie maker journey and available for freelance work.</h2>
-               <a class="button is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Let's chat 🚀 </a>
+               <h2 class="subtitle"> 👋 I'm Kieran - a designer and developer passionate about building fast, modern and beautiful experiences for web and mobile. Currently at the beginning of my indie maker journey with the goal of making 📈 <strong> $600 in MRR </strong> from stuff I 🎨 make.</h2>
+               <a class="button is-medium" href="mailto:kier.p.glover@gmail.com?Subject=Project%20enquiry" target="_top">Let's chat 🤘 </a>
           </div>
           <div class="column">
-
+               <!-- Add something here someday -->
           </div>
      </div>
 
@@ -14,6 +14,8 @@
 
 <script>
 export default {
+     components: {
+     }
 }
 </script>
 
