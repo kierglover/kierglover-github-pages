@@ -16,7 +16,7 @@
   <div class="level-item has-text-centered">
     <div>
       <p class="heading"> ✅ To Do's Completed</p>
-      <p class="title">3</p>
+      <p class="title">15</p>
     </div>
   </div>
   <div class="level-item has-text-centered">
