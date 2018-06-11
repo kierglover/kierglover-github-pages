@@ -21,13 +21,13 @@
 
           <!-- Personal Project -->
           <div class="container">
-               <h2 class="subtitle">Stuff I've Made 🚀</h2>
+               <h2 class="subtitle">🚀 Stuff I've Made </h2>
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/kieran-glover-webflow.jpg" title="Webflow Build System 💨" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
-               <port-card  projectImage="./static/kieran-glover-trick-shot.jpg" title="Trick Shot" description="Trick Shot is an addictive Android game build with Corona SDK - a  Lua based mobile framework." btnText="Demo Coming Soon"></port-card>
-               <port-card   projectImage="./static/kieran-glover-codepen.jpg" title="Code Explorations" description="I recently started using Codepen to practice and sketch out rough ideas. Take a look at my pens to see more" btnText="See Pens" siteLink="https://codepen.io/kiroid123/"></port-card>
+               <port-card  projectImage="./static/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
+               <port-card  projectImage="./static/millenial-money-mangement.jpg" title="Millenial Money Management" description="A list of website, apps and tech to help you take better control over your finances without relying banks" siteLink="https://docs.google.com/spreadsheets/d/1cSgbFeI5hQZsELkuxnc-LQgFoEAz2wCY0auC3istg0E/edit?usp=sharing" btnText="View Now"></port-card>
+               <port-card   projectImage="./static/kieran-glover-maker-medium.jpg" title="Blog posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
           </div>
      </div>
 
