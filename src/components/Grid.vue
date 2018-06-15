@@ -26,8 +26,8 @@
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./static/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
-               <port-card  projectImage="./static/millenial-money-mangement.jpg" title="Millennial Money Management" description="A list of website, apps and tech to help you take better control over your finances without relying banks" siteLink="https://docs.google.com/spreadsheets/d/1cSgbFeI5hQZsELkuxnc-LQgFoEAz2wCY0auC3istg0E/edit?usp=sharing" btnText="View Now"></port-card>
-               <port-card   projectImage="./static/kieran-glover-maker-medium.jpg" title="Blog posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
+               <port-card  projectImage="./static/millenial-money-mangement.jpg" title="💰 Millennial Money Management" description="A list of website, apps and tech to help you take better control over your finances without relying banks" siteLink="https://docs.google.com/spreadsheets/d/1cSgbFeI5hQZsELkuxnc-LQgFoEAz2wCY0auC3istg0E/edit?usp=sharing" btnText="View Now"></port-card>
+               <port-card   projectImage="./static/kieran-glover-maker-medium.jpg" title="📝 My Blog Posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
           </div>
      </div>
 
