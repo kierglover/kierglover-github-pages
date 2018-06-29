@@ -10,19 +10,19 @@
   <div class="level-item has-text-centered">
     <div>
       <p class="heading">🚀 Shipped</p>
-      <p class="title">1</p>
+      <p class="title">2</p>
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
       <p class="heading"> ✅ To Do's Completed</p>
-      <p class="title">37</p>
+      <p class="title">50</p>
     </div>
   </div>
   <div class="level-item has-text-centered">
    <div>
       <p class="heading"> ☕️ Weekly Coffee Count</p>
-      <p class="title">6</p>
+      <p class="title">10</p>
    </div>
   </div>
   <div class="level-item has-text-centered">

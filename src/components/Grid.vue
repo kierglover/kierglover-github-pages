@@ -6,9 +6,9 @@
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/Pancier-residence-Web-Development.jpg" title="Pancier Residence" siteLink="http://www.pancier-residence.com/" description="Pancier Residence is one of Phnom Penh's newest premier residential and commercial developments. With exclusive link house and shop house options providing a modern lifestyle." btnText="View Project"></port-card>
-               <port-card   projectImage="./static/happy-schnozzles-winchester-web-development.jpg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 views per month with a bounce rate of only 1%." btnText="View Project"></port-card>
-               <port-card   projectImage="./static/Smango-House-Website-Development.jpg" title="SMango House Resort" siteLink="http://smangohouse-cambodia.com/" description="SMango House Cambodia is a tranquil and relaxing eco-friendly resort just on the outskirts of Phnom Penh Cambodia. The resort is ready to welcome visitors with pool, restaurant and more." btnText="View Project"></port-card>
+               <port-card  projectImage="./dist/images/Pancier-residence-Web-Development.jpg" title="Pancier Residence" siteLink="http://www.pancier-residence.com/" description="Pancier Residence is one of Phnom Penh's newest premier residential and commercial developments. With exclusive link house and shop house options providing a modern lifestyle." btnText="View Project"></port-card>
+               <port-card   projectImage="./dist/images/happy-schnozzles-winchester-web-development.jpg" title="Happy Schnozzles" siteLink="https://www.happyschnozzles.com/" description="Happy Schnozzles was developed to help a local dog walking company grow their online presence. Since launch the site is receving an average of 500 views per month with a bounce rate of only 1%." btnText="View Project"></port-card>
+               <port-card   projectImage="./dist/images/Smango-House-Website-Development.jpg" title="SMango House Resort" siteLink="http://smangohouse-cambodia.com/" description="SMango House Cambodia is a tranquil and relaxing eco-friendly resort just on the outskirts of Phnom Penh Cambodia. The resort is ready to welcome visitors with pool, restaurant and more." btnText="View Project"></port-card>
           </div>
 
           <!-- Testominials Section -->
@@ -25,9 +25,9 @@
                <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
-               <port-card  projectImage="./static/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
-               <port-card  projectImage="./static/millenial-money-mangement.jpg" title="💰 Millennial Money Management" description="A list of website, apps and tech to help you take better control over your finances without relying banks" siteLink="https://docs.google.com/spreadsheets/d/1cSgbFeI5hQZsELkuxnc-LQgFoEAz2wCY0auC3istg0E/edit?usp=sharing" btnText="View Now"></port-card>
-               <port-card   projectImage="./static/kieran-glover-maker-medium.jpg" title="📝 My Blog Posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
+               <port-card  projectImage="./dist/images/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
+               <port-card  projectImage="./dist/images/millenial-money-mangement.jpg" title="💰 Millennial Money Management" description="A list of website, apps and tech to help you take better control over your finances without traditional banks" siteLink="https://millennialmoneymanagement.xyz" btnText="View Now"></port-card>
+               <port-card   projectImage="./dist/images/kieran-glover-maker-medium.jpg" title="📝 My Blog Posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
           </div>
      </div>
 

@@ -7,9 +7,11 @@
     "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
     "serve": "http-server -o -s -c 1 -a localhost",
     "dev": "npm-run-all --parallel watchify serve",
-    "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js"
+    "build": "cross-env NODE_ENV=production browserify -g envify src/main.js | uglifyjs -c warnings=false -m > dist/build.js",
+    "minimage": "imagemin static/* --out-dir=dist/images"
   },
   "dependencies": {
+    "imagemin": "^5.3.1",
     "npm": "^6.1.0",
     "vue": "^2.5.16",
     "vue-carousel": "^0.8.1",
@@ -26,6 +28,7 @@
     "cssify": "^1.0.3",
     "envify": "^3.4.1",
     "http-server": "^0.9.0",
+    "imagemin-cli": "^3.0.0",
     "node-sass": "^4.9.0",
     "npm-run-all": "^2.1.2",
     "uglify-js": "^2.5.0",
