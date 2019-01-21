@@ -1,7 +1,18 @@
 <template lang="html">
      <div class="work">
           <!-- RECENT PROJECTS SECTION -->
+          <!-- Personal Project -->
           <div class="container">
+               <h2 class="subtitle">🚀 Stuff I've Made </h2>
+               <hr class="hr-short">
+          </div>
+          <div class="tile is-ancestor projects">
+               <port-card  projectImage="./dist/images/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
+               <port-card  projectImage="./dist/images/millenial-money-mangement.jpg" title="💰 Millennial Money Management" description="A list of website, apps and tech to help you take better control over your finances without traditional banks" siteLink="https://millennialmoneymanagement.xyz" btnText="View Now"></port-card>
+               <port-card   projectImage="./dist/images/kieran-glover-maker-medium.jpg" title="📝 My Blog Posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
+          </div>
+          <!-- Client Work -->
+           <div class="container">
                <h2 class="subtitle">Client Projects</h2>
                <hr class="hr-short">
           </div>
@@ -19,16 +30,6 @@
 
           <port-testimonials class="has-text-centered"></port-testimonials>
 
-          <!-- Personal Project -->
-          <div class="container">
-               <h2 class="subtitle">🚀 Stuff I've Made </h2>
-               <hr class="hr-short">
-          </div>
-          <div class="tile is-ancestor projects">
-               <port-card  projectImage="./dist/images/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
-               <port-card  projectImage="./dist/images/millenial-money-mangement.jpg" title="💰 Millennial Money Management" description="A list of website, apps and tech to help you take better control over your finances without traditional banks" siteLink="https://millennialmoneymanagement.xyz" btnText="View Now"></port-card>
-               <port-card   projectImage="./dist/images/kieran-glover-maker-medium.jpg" title="📝 My Blog Posts" description="I write and document the stats and the stories of my maker journey over on Medium" btnText="See Posts" siteLink="https://medium.com/@kierglover"></port-card>
-          </div>
      </div>
 
 </template>

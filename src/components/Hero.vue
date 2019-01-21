@@ -5,20 +5,7 @@
          <header class="nav">
            <div class="container">
              <div class="nav-left">
-               <a class="nav-item">
-                    <h1 class="title">Kieran Glover</h1>
-               </a>
-             </div>
-             <div class="nav-right nav-menu">
-               <a class="nav-item" href="https://github.com/kierglover" target="_blank">
-                 <img src="https://png.icons8.com/GitHub" >
-               </a>
-               <a class="nav-item" href="https://twitter.com/kierglover" target="_blank">
-                 <img src="https://png.icons8.com/twitter">
-               </a>
-               <a class="nav-item" href="https://instagram.com/kiergloverdesign" target="_blank">
-                 <img src="https://png.icons8.com/Instagram">
-               </a>
+               <h1 class="nav-title">Kieran Glover</h1>
              </div>
            </div>
          </header>
@@ -38,8 +25,9 @@ export default {
 
 <style lang="sass" scoped>
 
-$purple: #b72a67;
-$peach: #fde8cb;
+     .nav {
+          padding: 10px 0px 20px 0px;
+     }
 
      a.nav-item {
           font-size: 14px;
@@ -51,12 +39,9 @@ $peach: #fde8cb;
           color: #ff3860;
      }
 
-     .nav {
-          background-color: #FCFCFC;
-     }
-
-     .title {
-          font-size: 1.75em;
+     .nav-title {
+          color: #4a4a4a;
+          font-size: 1.5em;
      }
 
      .hero-body {
