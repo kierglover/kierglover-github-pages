@@ -2,6 +2,7 @@
   <div id="app">
        <port-hero id="hero"></port-hero>
        <port-subtitle id="subtitle"></port-subtitle>
+              <port-graph></port-graph>
       <port-level></port-level>
        <port-work></port-work>
        <port-footer></port-footer>
@@ -11,6 +12,7 @@
 <script>
 import Hero from './components/Hero.vue'
 import Subtitle from './components/Subtitle.vue'
+import Graph from './components/Graph.vue'
 import Level from './components/Level.vue'
 import Work from './components/Grid.vue'
 import Footer from './components/Footer.vue'
@@ -19,6 +21,7 @@ export default {
   components: {
        'port-hero': Hero,
        'port-subtitle': Subtitle,
+       'port-graph': Graph,
        'port-level': Level,
        'port-work': Work,
        'port-footer': Footer

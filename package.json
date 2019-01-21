@@ -11,6 +11,7 @@
     "minimage": "imagemin static/* --out-dir=dist/images"
   },
   "dependencies": {
+    "chart.js": "^2.7.3",
     "imagemin": "^5.3.1",
     "npm": "^6.6.0",
     "vue": "^2.5.16",
