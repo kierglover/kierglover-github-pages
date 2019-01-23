@@ -1,30 +1,16 @@
 export const trackingChartData = {
     type: 'line',
     data: {
-      labels: ['Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar',],
+      labels: ['Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
       datasets: [
         { // one line graph
           label: 'Monthly Total Revenue',
-          data: [0, 0, 1, 2, 67, 62, 27, 14],
+          data: [0, 0,],
           backgroundColor: [
-            'rgba(54,73,93,.5)', // Blue
-            'rgba(54,73,93,.5)',
-            'rgba(54,73,93,.5)',
-            'rgba(54,73,93,.5)',
-            'rgba(54,73,93,.5)',
-            'rgba(54,73,93,.5)',
-            'rgba(54,73,93,.5)',
-            'rgba(54,73,93,.5)'
+            'rgba(255,56,96,.5)', // Red
           ],
           borderColor: [
-            '#36495d',
-            '#36495d',
-            '#36495d',
-            '#36495d',
-            '#36495d',
-            '#36495d',
-            '#36495d',
-            '#36495d',
+            '#ff3860',
           ],
           borderWidth: 3
         },
@@ -38,7 +24,7 @@ export const trackingChartData = {
           ticks: {
             beginAtZero: true,
             padding: 25,
-            suggestedMax: 100
+            suggestedMax: 1000
           }
         }]
       }
