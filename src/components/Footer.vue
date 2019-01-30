@@ -6,9 +6,8 @@
                     <p>
                          <a href="https://kierglover.github.io">Kieran Glover | Designer, Developer, Maker</a>
                          <br>
-                         <strong>P.S feeling extra generous today? Buy me a ☕️ coffee or 🍵 green tea 🙏 </strong>
+                         <strong>P.S feeling extra generous today? You can buy me a ☕️ coffee by sending $2 to my <a href="https://paypal.me/kierangloverpay?locale.x=en_GB">PayPal</a> 🙏 </strong>
                     </p>
-                    <a href='https://ko-fi.com/A5643LYE' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi5.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
                </div>
           </div>
 </footer>
