@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-     $purple: #b72a67;
+     $red: #e81c4f;
      $peach: #fde8cb;
 
      #client-review {

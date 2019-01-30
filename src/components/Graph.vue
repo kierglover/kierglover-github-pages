@@ -1,7 +1,14 @@
 <template>
+<div>
     <div class="container">
+        <h2 class="subtitle">👐 Working Openly</h2>
+        <p>I like transparently and nice visuals, so here is my data. Transparent and visual.</p>
+        <br>
+        <br>
+        <br>
         <canvas id="tracking-chart"></canvas>
     </div>
+</div>
 </template>
 
 <script>
@@ -31,6 +38,13 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass" scoped>
+         .subtitle {
+          font-size: 32px;
+          font-weight: bold;
+          margin-bottom: 15px;
+     }
+
+</style>
 
 </style>

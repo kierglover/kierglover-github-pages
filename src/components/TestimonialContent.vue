@@ -6,7 +6,7 @@
                </p>
           </div>
           <footer class="card-footer">
-               <p class="card-footer-item subtitle"><strong style="color: #b72a67; font-weight: bold;">{{clientName}}</strong></p>
+               <p class="card-footer-item subtitle"><strong style="color:  #e81c4f; font-weight: bold;">{{clientName}}</strong></p>
           </footer>
      </div>
 </template>

@@ -4,7 +4,7 @@
                <img :src="projectImage" class="project-image" alt="freelance-web-developer-phnom-penh">
                <div class="project-description">
                     <p class="title">{{title}}</p>
-                    <p class="subtitle">{{description}}</p>
+                    <p>{{description}}</p>
                     <a class="button is-medium is-outlined" :href="siteLink" target="_blank">{{btnText}}</a>
                </div>
           </article>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-$purple: #b72a67;
+$red: #e81c4f;
      .tile {
           margin-right: 25px;
      }
@@ -31,7 +31,7 @@ $purple: #b72a67;
           margin-bottom: 40px;
           font-size: 1.4em;
           font-weight: bold;
-          color: $purple;
+          color: $red;
      }
      .subtitle {
           font-size: 1rem;
@@ -46,16 +46,17 @@ $purple: #b72a67;
      }
 
      .button.is-medium {
+          margin: 30px 0px 0px 0px;
           font-size: 1.25rem;
-          color: $purple!important;
-          border-color: $purple;
+          color: $red!important;
+          border-color: $red;
           transition:all 0.25s ease;
           font-weight: 400;
      }
 
      .button.is-medium:hover {
           color: white!important;
-          background-color: $purple!important;
+          background-color: $red!important;
           }
 
      .box {
@@ -68,6 +69,6 @@ $purple: #b72a67;
 
      @keyframes bgFade {
     from {background-color: none;}
-    to {background-color: $purple;}
+    to {background-color: $red;}
 }
 </style>
