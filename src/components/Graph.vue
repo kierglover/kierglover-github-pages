@@ -2,7 +2,7 @@
 <div>
     <div class="container">
         <h2 class="subtitle">👐 Working Openly</h2>
-        <p>I like transparently and nice visuals, so here is my data. Transparent and visual.</p>
+        <p class="lead">I like transparently and nice visuals, so here is my data. Transparent and visual. My current goal is to try and make <strong>$500 MRR by the end of 2019 from stuff I build in my freetime.</strong></p>
         <br>
         <br>
         <br>
@@ -39,10 +39,14 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-         .subtitle {
-          font-size: 32px;
-          font-weight: bold;
-          margin-bottom: 15px;
+    .subtitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 15px;
+     }
+
+     .lead {
+         width: 50%;
      }
 
 </style>
