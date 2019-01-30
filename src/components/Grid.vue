@@ -3,8 +3,7 @@
           <!-- RECENT PROJECTS SECTION -->
           <!-- Personal Project -->
           <div class="container">
-               <h2 class="subtitle">🚀 Stuff I've Made </h2>
-               <hr class="hr-short">
+               <h2 class="subtitle">🚀 Some Stuff I've Made </h2>
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./dist/images/kieran-glover-webflow.jpg" title="💨 Webflow Build System" description="I wanted a way to optimise sites exported with Webflow so I created a template with Gruntjs to do that" siteLink="https://github.com/kierglover/webflow-build-system" btnText="Get it on Github"></port-card>
@@ -14,7 +13,6 @@
           <!-- Client Work -->
            <div class="container">
                <h2 class="subtitle">Client Projects</h2>
-               <hr class="hr-short">
           </div>
           <div class="tile is-ancestor projects">
                <port-card  projectImage="./dist/images/Pancier-residence-Web-Development.jpg" title="Pancier Residence" siteLink="http://www.pancier-residence.com/" description="Pancier Residence is one of Phnom Penh's newest premier residential and commercial developments. With exclusive link house and shop house options providing a modern lifestyle." btnText="View Project"></port-card>
@@ -25,7 +23,6 @@
           <!-- Testominials Section -->
           <div class="container">
                <h2 class="subtitle">Testimonials</h2>
-               <hr class="hr-short">
           </div>
 
           <port-testimonials class="has-text-centered"></port-testimonials>

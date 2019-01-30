@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-       <port-hero id="hero"></port-hero>
-       <port-subtitle id="subtitle"></port-subtitle>
-              <port-graph></port-graph>
-      <port-level></port-level>
-       <port-work></port-work>
-       <port-footer></port-footer>
+     <port-hero id="hero"></port-hero>
+     <port-subtitle id="subtitle"></port-subtitle>
+     <port-work></port-work>
+     <port-graph></port-graph>
+     <port-log></port-log>
+     <port-footer></port-footer>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 import Hero from './components/Hero.vue'
 import Subtitle from './components/Subtitle.vue'
 import Graph from './components/Graph.vue'
-import Level from './components/Level.vue'
+import Log from './components/Log.vue'
 import Work from './components/Grid.vue'
 import Footer from './components/Footer.vue'
 export default {
@@ -22,7 +22,7 @@ export default {
        'port-hero': Hero,
        'port-subtitle': Subtitle,
        'port-graph': Graph,
-       'port-level': Level,
+       'port-log': Log,
        'port-work': Work,
        'port-footer': Footer
  },
