@@ -1,19 +1,16 @@
 <template lang="html">
-     <div class="tile is-parent">
-          <article class="tile is-child box" id="development-work">
-               <img :src="projectImage" class="project-image" alt="freelance-web-developer-phnom-penh">
-               <div class="project-description">
-                    <p class="title">{{title}}</p>
-                    <p>{{description}}</p>
-                    <a class="button is-medium is-outlined" :href="siteLink" target="_blank">{{btnText}}</a>
-               </div>
-          </article>
-     </div>
+     <a class="box" :href="siteLink" target="_blank">
+                    <img :src="projectImage" class="box__image" alt="freelance-web-developer-phnom-penh">
+                    <div class="content">
+                         <p class="box__title">{{title}}</p>
+                         <p class="box__description">{{description}}</p>
+                    </div>
+     </a>
 </template>
 
 <script>
 export default {
-     props: ['title', 'description', 'cta-btn', 'projectImage', 'siteLink', 'btnText'],
+     props: ['title', 'description', 'cta-btn', 'projectImage', 'siteLink'],
      data () {
           return {
                // BtnText: "View Project"
@@ -23,52 +20,34 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-$red: #e81c4f;
-     .tile {
-          margin-right: 25px;
-     }
-     .title {
-          margin-bottom: 40px;
-          font-size: 1.4em;
-          font-weight: bold;
-          color: $red;
-     }
-     .subtitle {
-          font-size: 1rem;
-          font-weight: 400;
-          color: #4a4a4a;
-          line-height: 1.5;
-     }
-
-     .project-image {
-          margin-bottom: 20px;
-          transition: opacity .5s
-     }
-
-     .button.is-medium {
-          margin: 30px 0px 0px 0px;
-          font-size: 1.25rem;
-          color: $red!important;
-          border-color: $red;
-          transition:all 0.25s ease;
-          font-weight: 400;
-     }
-
-     .button.is-medium:hover {
-          color: white!important;
-          background-color: $red!important;
-          }
+$darkest: #3d4852;
+$grey: #b8c2cc;
 
      .box {
-          border: none;
-          background: none;
-          box-shadow: none;
+          width: 33.3%;
+          margin: 0.75em;
+          background-color: white;
+          padding: 0px;
+          height: 20em;
+          &__image {
+               min-height: auto;
+               width: 100%;
+               border-radius: 5px 5px 0px 0px;
+          }
+          &__title {
+               font-size: 1.2em;
+               color: $darkest;
+               font-weight: bold;
+          }
+          &__description {
+               color: $grey;
+          }
+          &:hover {
+               box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          }
      }
-
-     //ANIMATIONS
-
-     @keyframes bgFade {
-    from {background-color: none;}
-    to {background-color: $red;}
-}
+     .content {
+          height: 50%;
+          padding: 1em;
+     }
 </style>
