@@ -5,7 +5,7 @@ export const trackingChartData = {
       datasets: [
         { // one line graph
           label: 'Monthly Total Revenue',
-          data: [0, 0,],
+          data: [0, 0, 0, 0],
           backgroundColor: [
             'rgba(255,56,96,.5)', // Red
           ],

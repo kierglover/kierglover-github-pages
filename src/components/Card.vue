@@ -2,7 +2,7 @@
      <a class="box" :href="siteLink" target="_blank">
                     <img :src="projectImage" class="box__image" alt="freelance-web-developer-phnom-penh">
                     <div class="content">
-                         <p class="box__title">{{title}}</p>
+                         <h2 class="box__title">{{title}}</h2>
                          <p class="box__description">{{description}}</p>
                     </div>
      </a>
@@ -22,6 +22,7 @@ export default {
 <style lang="sass" scoped>
 $darkest: #3d4852;
 $grey: #b8c2cc;
+$light-grey: #f8fafc;
 
      .box {
           width: 33.3%;

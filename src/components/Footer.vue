@@ -19,8 +19,11 @@ export default {
 }
 </script>
 
-<style lang="sass">
-     a {
-          color: #ff3860 !important;
-     }
+<style lang="sass" scoped>
+$darkest: #3d4852;
+$grey: #b8c2cc;
+$light-grey: #f8fafc;
+footer {
+     background-color: $light-grey;
+}
 </style>

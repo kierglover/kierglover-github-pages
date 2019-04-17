@@ -1,14 +1,12 @@
 <template>
-<div>
     <div class="container">
-        <h2 class="subtitle">👐 Working Openly</h2>
+        <h2 class="container__title">Working Openly</h2>
         <p class="lead">I like transparently and nice visuals, so here is my data. Transparent and visual. My current goal is to try and make <strong>$500 MRR by the end of 2019 from stuff I build in my freetime.</strong></p>
         <br>
         <br>
         <br>
         <canvas id="tracking-chart"></canvas>
     </div>
-</div>
 </template>
 
 <script>
@@ -39,11 +37,21 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    .subtitle {
-        font-size: 32px;
-        font-weight: bold;
-        margin-bottom: 15px;
-     }
+$darkest: #3d4852;
+$grey: #b8c2cc;
+$light-grey: #f8fafc;
+
+@mixin element-padding {
+     padding: 3em;
+}
+    .container {
+        @include element-padding;
+        &__title {
+            font-size: 1.5em;
+            color: $darkest;
+            font-weight: bold;
+        }
+    }
 
      .lead {
          width: 50%;

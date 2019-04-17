@@ -2,7 +2,7 @@
   <div id="app">
      <port-hero id="hero"></port-hero>
      <port-subtitle id="subtitle"></port-subtitle>
-     <port-work></port-work>
+     <port-maker></port-maker>
      <port-graph></port-graph>
      <port-log></port-log>
      <port-footer></port-footer>
@@ -14,7 +14,7 @@ import Hero from './components/Hero.vue'
 import Subtitle from './components/Subtitle.vue'
 import Graph from './components/Graph.vue'
 import Log from './components/Log.vue'
-import Work from './components/Grid.vue'
+import Maker from './components/Maker.vue'
 import Footer from './components/Footer.vue'
 export default {
   name: 'app',
@@ -23,7 +23,7 @@ export default {
        'port-subtitle': Subtitle,
        'port-graph': Graph,
        'port-log': Log,
-       'port-work': Work,
+       'port-maker': Maker,
        'port-footer': Footer
  },
   data () {
