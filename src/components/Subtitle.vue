@@ -4,7 +4,7 @@
           <div class="hero-container__content">
                <img class="profile-pic" src="./dist/images/Kieran.jpg">
                <h1 class="title">Kieran Glover</h1>
-               <h2 class="subtitle">Front end designer &amp developer <a href="https://www.xn--md-via.com/" target="_blank">@Mäd.</a> Aspiring maker.</h2>
+               <h2 class="subtitle">Front end designer &amp developer <a href="https://www.xn--md-via.com/" target="_blank" style="color: #e81c4f;">@Mäd.</a> Aspiring maker.</h2>
                <p>👋 Hi, I'm Kieran. Front end designer &amp developer Mäd Creative Consultancy. I also 😍 love
                     🚢 shipping my own side projects with the hope to make some 📈 MRR. 
                </p>

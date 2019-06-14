@@ -1,9 +1,9 @@
 <template lang="html">
-     <div class="work">
+     <div class="section-wrap">
           <!-- Personal Project -->
           <div class="text-container">
-               <h2 class="subtitle">Stuff I've Made </h2>
-                <p class="lead">When I'm not busy with client work, I love building mini startups and launching them over on <a href="https://www.producthunt.com/@kierglover1" target="_blank">Product Hunt.</a></p>
+               <h2 class="subtitle">Side Projects</h2>
+                <p class="lead">To test and improve my skills I build quick MVP's and launch them over on <a href="https://www.producthunt.com/@kierglover1" target="_blank">Product Hunt.</a></p>
           </div>
           <div class="container">
                <port-card  projectImage="https://cdn.blinkloader.com/express/DALbJCwDxCZl5lYFenV5owt8E/Screen Shot 2019-04-17 at 12.16.42 PM.png" title="Millennial Money Management" description="millennialmoneymanagement.xyz" siteLink="https://millennialmoneymanagement.xyz"></port-card>
@@ -32,8 +32,15 @@ $light-grey: #f8fafc;
 @mixin element-padding {
      padding: 3em;
 }
+
+     a {
+          color: #ff3860;
+          font-weight: bold;
+     }
+     
      .container {
           display: flex;
+          @include  element-padding;
 
      }
 
@@ -51,12 +58,12 @@ $light-grey: #f8fafc;
          width: 50%;
      }
 
-     .work {
-         display: flex;
-         flex-direction: column;
-        background-color: #f8fafc;
-        padding: 3em;
-        @include element-padding;
+     .section-wrap {
+          display: flex;
+          flex-direction: column;
+          background-color: #f8fafc;
+          padding: 3em;
+          @include element-padding;
      }
 
      .hr-short {
