@@ -4,7 +4,6 @@
      <port-subtitle id="subtitle"></port-subtitle>
      <port-maker></port-maker>
      <port-skills></port-skills>
-     <port-log></port-log>
      <port-footer></port-footer>
   </div>
 </template>

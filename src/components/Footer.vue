@@ -6,7 +6,7 @@
                     <p>
                          <a href="https://kierglover.github.io">Kieran Glover | Designer, Developer, Maker</a>
                          <br>
-                         <strong>P.S feeling extra generous today? You can buy me a ☕️ coffee by sending $2 to my <a href="https://paypal.me/kierangloverpay?locale.x=en_GB">PayPal</a> 🙏 </strong>
+                         <strong>If you are feeling generous, you can support my side projects (and love for ☕️coffee)<a href="https://www.buymeacoffee.com/kierglover"> here</a></strong>
                     </p>
                </div>
           </div>

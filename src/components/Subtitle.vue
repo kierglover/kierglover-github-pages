@@ -3,31 +3,32 @@
      <div class="hero-container">
           <div class="hero-container__content">
                <img class="profile-pic" src="./dist/images/Kieran.jpg">
-               <h1 class="title">Kieran Glover</h1>
-               <h2 class="subtitle">Front end designer &amp developer <a href="https://www.xn--md-via.com/" target="_blank" style="color: #e81c4f;">@Mäd.</a> Aspiring maker.</h2>
-               <p>👋 Hi, I'm Kieran. Front end designer &amp developer Mäd Creative Consultancy. I also 😍 love
-                    🚢 shipping my own side projects with the hope to make some 📈 MRR. 
+               <h1 class="title">Kieran Glover.</h1>
+               <h1 class="title--last">I build stuff for the web.</h1>
+               <p>👋Hey, thanks for checking out my portfolio!</p>
+               <br>
+               <p>I'm a front end developer currently based in Phnom  Penh, specialising in building (and designing) high-quality websites and applications.   
                </p>
-          </div>
-          <div class="hero-container__social-icons">
-               <a class="social-link" href="https://github.com/kierglover" target="_blank">
-                 <img src="https://png.icons8.com/GitHub" > 
-               </a>
-               <a class="social-link" href="https://dribbble.com/kiergloverdesign" target="_blank">
-                 <img src="https://png.icons8.com/Dribbble" > 
-               </a>
-               <a class="social-link" href="https://twitter.com/kierglover" target="_blank">
-                 <img src="https://png.icons8.com/twitter"> 
-               </a>
-               <a class="social-link" href="https://youtube.com/KieranGloverDesign" target="_blank">
-                 <img src="https://png.icons8.com/youtube"> 
-               </a>
-               <a class="social-link" href="https://instagram.com/kiergloverdesign" target="_blank">
-                 <img src="https://png.icons8.com/Instagram"> 
-               </a>
-               <a class="social-link" href="https://medium.com/@kierglover" target="_blank">
-                 <img src="https://img.icons8.com/Medium"> 
-               </a>
+               <div class="hero-container__social-icons">
+                    <a class="social-link" href="https://github.com/kierglover" target="_blank">
+                         <img src="https://png.icons8.com/GitHub" > 
+                    </a>
+                    <a class="social-link" href="https://dribbble.com/kiergloverdesign" target="_blank">
+                         <img src="https://png.icons8.com/Dribbble" > 
+                    </a>
+                    <a class="social-link" href="https://twitter.com/kierglover" target="_blank">
+                         <img src="https://png.icons8.com/twitter"> 
+                    </a>
+                    <a class="social-link" href="https://youtube.com/KieranGloverDesign" target="_blank">
+                         <img src="https://png.icons8.com/youtube"> 
+                    </a>
+                    <a class="social-link" href="https://instagram.com/kiergloverdesign" target="_blank">
+                         <img src="https://png.icons8.com/Instagram"> 
+                    </a>
+                    <a class="social-link" href="https://medium.com/@kierglover" target="_blank">
+                         <img src="https://img.icons8.com/Medium"> 
+                    </a>
+               </div>
           </div>
      </div>
 
@@ -40,7 +41,9 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
+
+@import './static/css/global.css';
 
 $black: #555;
 $red: #e81c4f;
@@ -58,20 +61,23 @@ $red: #e81c4f;
           font-weight: 400;
      }
 
+     .title {
+          &--last {
+               margin: 0em 0em 0.5em 0em;
+               color: #363636;
+               font-size: 3rem!important;
+               font-weight: bold!important;
+          }
+     }
+
      .hero-container {
-          @include element-margin;
-          padding: 30px;
-          width: 100%;
           &__content {
-               padding: 0px 225px 0px 225px;
-               text-align: center;
+               padding: 3em 10em 3em 10em;
           }
           &__social-icons {
                border-radius: 0%!important;
                margin: 50px 0px 50px 0px;
                display: flex;
-               justify-content: center;
-               align-self: center;
           }
      }
 
@@ -85,35 +91,12 @@ $red: #e81c4f;
           }
      }
 
-     .title {
-          margin: 30px 0px 50px 0px!important;
-          font-size: 3rem;
-          line-height: 2.2rem;
-          font-weight: 600;
-     }
-
-     .subtitle {
-          font-size: 1.4rem;
-          font-weight: 400;
-     }
-
-     .button {
-          font-size: 1.25rem;
-          color: $red!important;
-          border-color: $red;
-          transition:all 0.25s ease;
-          }
-
-          .button:hover {
-          color: white!important;
-          background-color: $red!important;
-          }
-
      .profile-pic {
           filter: grayscale(75%);
           border-radius: 100%;
           max-width: 15em;
           max-height: 15em;
+          margin: 0em 0em 2em 0em;
      }
 
 </style>

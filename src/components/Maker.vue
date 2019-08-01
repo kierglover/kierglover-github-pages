@@ -2,7 +2,7 @@
      <div class="section-wrap">
           <!-- Personal Project -->
           <div class="text-container">
-               <h2 class="subtitle">Side Projects</h2>
+               <h2 class="subtitle">Some things I've built</h2>
                 <p class="lead">To test and improve my skills I build quick MVP's and launch them over on <a href="https://www.producthunt.com/@kierglover1" target="_blank">Product Hunt.</a></p>
           </div>
           <div class="container">
@@ -24,7 +24,10 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
+
+@import './static/css/global.css';
+
 $darkest: #3d4852;
 $grey: #b8c2cc;
 $light-grey: #f8fafc;
@@ -40,18 +43,11 @@ $light-grey: #f8fafc;
      
      .container {
           display: flex;
-          @include  element-padding;
-
      }
 
      .text-container {
          @include element-padding;
 
-     }
-
-     .subtitle {
-          font-size: 1.5em;
-          font-weight: bold;
      }
 
     .lead {

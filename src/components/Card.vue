@@ -1,10 +1,19 @@
 <template lang="html">
-     <a class="box" :href="siteLink" target="_blank">
-                    <img :src="projectImage" class="box__image" alt="freelance-web-developer-phnom-penh">
-                    <div class="content">
-                         <h2 class="box__title">{{title}}</h2>
-                         <p class="box__description">{{description}}</p>
+     <a :href="siteLink" target="_blank">
+          <div class="card" style="margin: 0.5em;">
+               <div class="card-image">
+                    <figure class="image is-3by3">
+                         <img :src="projectImage" alt="Placeholder image">
+                    </figure>
+               </div>
+               <div class="card-content">
+                    <div class="media-content">
+                         <h2 class="subtitle">{{title}}</h2>
+                         <p class="is-6">{{description}}</p>
                     </div>
+               </div>
+               </div>
+          </div>
      </a>
 </template>
 
@@ -19,36 +28,12 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
+
+@import './static/css/global.css';
+
 $darkest: #3d4852;
 $grey: #b8c2cc;
 $light-grey: #f8fafc;
 
-     .box {
-          width: 33.3%;
-          margin: 0.75em;
-          background-color: white;
-          padding: 0px;
-          height: 20em;
-          &__image {
-               min-height: auto;
-               width: 100%;
-               border-radius: 5px 5px 0px 0px;
-          }
-          &__title {
-               font-size: 1.2em;
-               color: $darkest;
-               font-weight: bold;
-          }
-          &__description {
-               color: $grey;
-          }
-          &:hover {
-               box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-          }
-     }
-     .content {
-          height: 50%;
-          padding: 1em;
-     }
 </style>

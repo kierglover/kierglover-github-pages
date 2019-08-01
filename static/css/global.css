@@ -1,0 +1,15 @@
+.title {
+    color: #363636;
+    font-size: 3rem!important;
+    font-weight: bold!important;
+    margin-bottom: 0rem!important;
+}
+
+.subtitle {
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.25;
+    font-weight: bold!important;
+    margin-bottom: 1.5rem;
+}

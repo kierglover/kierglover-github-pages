@@ -1,8 +1,10 @@
 <template>
     <div class="section-wrap">
           <div class="text-container">
-               <h2 class="subtitle">My Skills</h2>
-                <p class="lead">Both personally and professionally I have gained a range of design and development skills.</p>
+               <h2 class="subtitle">More about me</h2>
+                <p class="lead">Hello! I'm Kieran, a front-end developer with a keen eye for design currently based in Phnom Penh Cambodia. I develop exceptional websites and web apps that provide user-centric interfaces with modern and efficent front-end technolgy.</p>
+                <br>
+               <p class="lead">Since 2018, I have been working at Mäd Creative Consultancy, bridging the gap between design and development for some of South East Asias leading companies.</p>
           </div>
     </div>
 </template>
@@ -40,11 +42,6 @@ $light-grey: #f8fafc;
 
      }
 
-    .subtitle {
-          font-size: 1.5em;
-          font-weight: bold;
-     }
-
     .lead {
          width: 50%;
      }
@@ -52,7 +49,7 @@ $light-grey: #f8fafc;
     .section-wrap {
           display: flex;
           flex-direction: column;
-          background-color: #f8fafc;
+          // background-color: #f8fafc;
           padding: 3em;
           @include element-padding;
      }
