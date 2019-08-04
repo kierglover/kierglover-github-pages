@@ -1,9 +1,9 @@
 <template>
   <div id="app">
      <port-hero id="hero"></port-hero>
-     <port-subtitle id="subtitle"></port-subtitle>
-     <port-maker></port-maker>
+     <port-subtitle></port-subtitle>
      <port-skills></port-skills>
+     <port-maker></port-maker>
      <port-footer></port-footer>
   </div>
 </template>
@@ -32,8 +32,8 @@ export default {
 }
 </script>
 
-<style lang="sass">
-
+<style lang="scss">
+@import './static/css/global.css';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
 $font-stack: 'Montserrat', sans-serif;

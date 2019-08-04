@@ -12,7 +12,6 @@
                          <p class="is-6">{{description}}</p>
                     </div>
                </div>
-               </div>
           </div>
      </a>
 </template>
@@ -32,8 +31,9 @@ export default {
 
 @import './static/css/global.css';
 
-$darkest: #3d4852;
-$grey: #b8c2cc;
-$light-grey: #f8fafc;
+.card {
+     width: 100%;
+     height: 22em;
+}
 
 </style>

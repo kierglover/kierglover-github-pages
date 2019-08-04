@@ -5,10 +5,8 @@
                <img class="profile-pic" src="./dist/images/Kieran.jpg">
                <h1 class="title">Kieran Glover.</h1>
                <h1 class="title--last">I build stuff for the web.</h1>
-               <p>👋Hey, thanks for checking out my portfolio!</p>
+               <p>Hello! I'm a front-end developer with a keen eye for design currently based in Phnom Penh Cambodia. I develop exceptional websites and web apps that provide user-centric interfaces with modern and efficient front-end technolgies.</p>
                <br>
-               <p>I'm a front end developer currently based in Phnom  Penh, specialising in building (and designing) high-quality websites and applications.   
-               </p>
                <div class="hero-container__social-icons">
                     <a class="social-link" href="https://github.com/kierglover" target="_blank">
                          <img src="https://png.icons8.com/GitHub" > 
@@ -44,14 +42,6 @@ export default {
 <style lang="scss" scoped>
 
 @import './static/css/global.css';
-
-$black: #555;
-$red: #e81c4f;
-
-@mixin element-margin {
-     margin-top: 25px;
-     margin-bottom: 25px;
-}
 
 @mixin full-height {
      height: 100vh;

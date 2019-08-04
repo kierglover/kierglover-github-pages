@@ -1,14 +1,20 @@
 <template lang="html">
-     <div class="section-wrap">
+     <div class="section-wrap" style="background-color: white;">
           <!-- Personal Project -->
           <div class="text-container">
                <h2 class="subtitle">Some things I've built</h2>
-                <p class="lead">To test and improve my skills I build quick MVP's and launch them over on <a href="https://www.producthunt.com/@kierglover1" target="_blank">Product Hunt.</a></p>
+                <p class="lead">In my free-time and to level up my skills I like build quick MVP's and launch them over on <a href="https://www.producthunt.com/@kierglover1" target="_blank">Product Hunt.</a></p>
           </div>
-          <div class="container">
-               <port-card  projectImage="https://cdn.blinkloader.com/express/DALbJCwDxCZl5lYFenV5owt8E/Screen Shot 2019-04-17 at 12.16.42 PM.png" title="Millennial Money Management" description="millennialmoneymanagement.xyz" siteLink="https://millennialmoneymanagement.xyz"></port-card>
-               <port-card  projectImage="https://cdn.blinkloader.com/express/guiCDCuGzgYNiaSPEEVhtdUI3/Screen Shot 2019-04-17 at 12.40.34 PM.png" title="Boltflow" description="https://boltflow.xyz" siteLink="https://boltflow.xyz"></port-card>
-               <port-card   projectImage="https://cdn.blinkloader.com/express/34RL1oS47IDQODW018JMHFmVJ/Screen Shot 2019-04-17 at 2.10.27 PM.png" title="Blog Posts" description="https://medium.com/@kierglover" siteLink="https://medium.com/@kierglover"></port-card>
+          <div class="columns">
+               <div class="column">
+                    <port-card  projectImage="https://cdn.blinkloader.com/express/DALbJCwDxCZl5lYFenV5owt8E/Screen Shot 2019-04-17 at 12.16.42 PM.png" title="Millennial Money Management" description="A curated directory of fintech apps." siteLink="https://millennialmoneymanagement.xyz"></port-card>
+               </div>
+               <div class="column">
+                    <port-card  projectImage="https://cdn.blinkloader.com/express/guiCDCuGzgYNiaSPEEVhtdUI3/Screen Shot 2019-04-17 at 12.40.34 PM.png" title="Boltflow" description="Boost performance of code exported from Webflow" siteLink="https://boltflow.xyz"></port-card>
+               </div>
+               <div class="column">
+                    <port-card   projectImage="https://cdn.blinkloader.com/express/34RL1oS47IDQODW018JMHFmVJ/Screen Shot 2019-04-17 at 2.10.27 PM.png" title="Blog Posts" description="Ocassionally I write design & development articles." siteLink="https://medium.com/@kierglover"></port-card>
+               </div>
           </div>
      </div>
 
@@ -32,24 +38,6 @@ $darkest: #3d4852;
 $grey: #b8c2cc;
 $light-grey: #f8fafc;
 
-@mixin element-padding {
-     padding: 3em;
-}
-
-     a {
-          color: #ff3860;
-          font-weight: bold;
-     }
-     
-     .container {
-          display: flex;
-     }
-
-     .text-container {
-         @include element-padding;
-
-     }
-
     .lead {
          width: 50%;
      }
@@ -57,9 +45,10 @@ $light-grey: #f8fafc;
      .section-wrap {
           display: flex;
           flex-direction: column;
-          background-color: #f8fafc;
-          padding: 3em;
-          @include element-padding;
+     }
+
+     .text-container {
+          margin: 0em 0em 3em 0em;
      }
 
      .hr-short {
