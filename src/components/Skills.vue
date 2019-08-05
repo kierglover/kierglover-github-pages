@@ -1,47 +1,34 @@
 <template>
     <div class="section-wrap">
          <div class="columns">
-              <div class="column">
+              <div class="column is-half" id="about-wrapper">
                     <h2 class="subtitle">More about me</h2>
                     <p class="lead">Hello! I'm Kieran, a front-end developer with a keen eye for design currently based in Phnom Penh Cambodia. I develop exceptional websites and web apps that provide user-centric interfaces with modern and efficent front-end technolgy.</p>
                     <br>
                     <p class="lead">Since 2018, I have been working at <a href="https://www.xn--md-via.com/" target-="_blank">Mäd Creative Consultancy</a>, bridging the gap between design and development for some of South East Asias leading companies.</p>
-                    <br>
+               </div>
+               <!-- List of tech here -->
+               <div class="column is-half" id="skills-wrapper">
                     <p class="lead">Here's some of the technology I have been using recently</p>
-                    <!-- List of tech here -->
-                    <div class="columns">
-                         <div class="column">
-                              <div class="columns is-mobile">
-                                   <div class="column">
-                                        <div class="content">
-                                             <ul>
-                                                  <li>Webflow</li>
-                                                  <li>Vue</li>
-                                                  <li>HTML &amp (S)CSS</li>
-                                                  <li>Node.js</li>
-                                             </ul>
-                                        </div>
-                                   </div>
-                                   <div class="column">
-                                        <div class="content">
-                                             <ul>
-                                                  <li>Webflow</li>
-                                                  <li>Vue</li>
-                                                  <li>HTML &amp (S)CSS</li>
-                                                  <li>Node.js</li>
-                                             </ul>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
+                    <div class="content" id="skills-wrapper__list">
+                         <ul>
+                              <h3 class="skills-wrapper__title">Development</h3>
+                              <li>Webflow</li>
+                              <li>Vue</li>
+                              <li>HTML &amp (S)CSS</li>
+                              <li>Node.js</li>
+                         </ul>
+                         <ul>
+                              <h3 class="skills-wrapper__title">Design</h3>
+                              <li>Sketch</li>
+                              <li>Adobe XD</li>
+                              <li>InVision</li>
+                              <li>Adobe Suite</li>
+                         </ul>
                     </div>
                </div>
-              <div class="column" style="align-items: center; display: flex;">
-                   <!-- Skills items to go here -->
-                   
-              </div>
-         </div>
-    </div>
+          </div>
+     </div>
 </template>
 
 <script>
@@ -50,7 +37,6 @@
 export default {
     name: 'Skills',
     components: {
-
     },
     data() {
         return {
@@ -67,15 +53,29 @@ $darkest: #3d4852;
 $grey: #b8c2cc;
 $light-grey: #f8fafc;
 
-@mixin stripe-shadow  {
-     -webkit-box-shadow: 0 13px 15px -5px rgba(50,50,93,.25), 0 8px 10px -8px rgba(0,0,0,.3), 0 -6px 10px -6px rgba(0,0,0,.025);
-    box-shadow: 0 13px 15px -5px rgba(50,50,93,.25), 0 8px 10px -8px rgba(0,0,0,.3), 0 -6px 10px -6px rgba(0,0,0,.025);
-    -webkit-transition-property: color,background-color,-webkit-box-shadow,-webkit-transform;
+@mixin about-cols-margin {
+     margin: 0 2em 2em 0;
 }
 
-.portfolio-image {
-     @include stripe-shadow;
-     border-radius: 0.5em;
+ul {
+     list-style: none!important;
+     margin: 2em 6em 0 0em!important;
+}
+
+h3 {
+     font-size: 1.3em;
+}
+
+#about-wrapper {
+     @include about-cols-margin();
+}
+
+#skills-wrapper {
+     @include about-cols-margin();
+     padding: 3.75em 0 0 0;
+     &__list {
+          display: flex;
+     }
 }
 
 

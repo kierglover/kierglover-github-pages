@@ -3,6 +3,7 @@
      <port-hero id="hero"></port-hero>
      <port-subtitle></port-subtitle>
      <port-skills></port-skills>
+     <port-timeline></port-timeline>
      <port-maker></port-maker>
      <port-footer></port-footer>
   </div>
@@ -12,7 +13,7 @@
 import Hero from './components/Hero.vue'
 import Subtitle from './components/Subtitle.vue'
 import Skills from './components/Skills.vue'
-import Log from './components/Log.vue'
+import Timeline from './components/Timeline.vue'
 import Maker from './components/Maker.vue'
 import Footer from './components/Footer.vue'
 export default {
@@ -21,7 +22,7 @@ export default {
        'port-hero': Hero,
        'port-subtitle': Subtitle,
        'port-skills': Skills,
-       'port-log': Log,
+       'port-timeline': Timeline,
        'port-maker': Maker,
        'port-footer': Footer
  },

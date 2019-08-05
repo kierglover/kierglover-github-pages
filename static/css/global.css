@@ -1,10 +1,15 @@
 a {
-    color: #ff3860;
+    color: #ff3860!important;
     font-weight: bold;
 }
 
 li {
     font-weight: 300;
+}
+
+.p-small {
+    font-size: 0.9em;
+    margin: 0;
 }
 
 .title {
